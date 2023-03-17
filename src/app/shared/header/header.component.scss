@@ -1,0 +1,26 @@
+@import '../../../styles/colors';
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 21px;
+  .navbar-logo img {
+    height: 54px;
+  }
+  .navbar-links {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+
+    li {
+      margin-right: 13%;
+      a {
+        text-decoration: none;
+        font-weight: 500;
+        color: $fontColor;
+      }
+    }
+  }
+}
